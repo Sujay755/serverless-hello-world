@@ -7,7 +7,7 @@ module.exports.helloWorld = (event, context, callback) => {
       'Access-Control-Allow-Origin': '*', // Required for CORS support to work
     },
     body: JSON.stringify({
-      message: 'Nothing is yours!!',
+      message: 'Nothing is mine!!!',
       input: event,
     }),
   };
