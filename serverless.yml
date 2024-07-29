@@ -25,7 +25,7 @@ functions:
       - http:
           path: hello-world
           method: get
-          cors: true
+          # cors: true
 
 plugins:
   - serverless-offline
